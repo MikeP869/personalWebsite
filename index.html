@@ -1,0 +1,93 @@
+<!-- Michael Parr, P2, CIS 425, 4:30 PM -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Movies and About Me</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+    </nav>
+
+    <header id="header">
+        <div id="cinemaDiv">
+            <div id="cinemaPicture"></div>
+        </div>
+        <section>
+            <h1>Movie Madness</h1><br>
+            <h3 id="headerInfo">These are must-see films, so grab your popcorn and a drink and enjoy the show!</h3>
+        </section>
+    </header>
+
+    <main id="movieMain">
+        <div>
+            <p id="movieParagraph">Movies have been a great pastime for many people for several decades. Although,
+                finding the right movie to watch isn't always easy. That is why we provided you with a list of movies to
+                choose from and we will tell you what the movie is about. If you don't like any of the movies provided, then
+                pick a random movie. All of these movies are available on streaming services such as Netflix and Hulu.</p>
+            <p id="question">What movie are you interested in learning more about?</p><br>
+        </div>
+        <div>
+            <form method="get" action="http://localhost:8080">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Movie Title</th>
+                            <th>Rating (1-5)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><label>Academy Dinosaur</label></td>
+                            <td><img class="stars" src="fivestars.png" alt="Five Stars"></td>
+                            <td><input class="selection" type="radio" name="movies" value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Falcon Volume</label></td>
+                            <td><img class="stars" src="fivestars.png" alt="Five Stars"></td>
+                            <td><input class="selection" type="radio" name="movies" value="300"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Hardly Robbers</label></td>
+                            <td><img class="stars" src="fivestars.png" alt="Five Stars"></td>
+                            <td><input class="selection" type="radio" name="movies" value="400"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Motions Details</label></td>
+                            <td><img class="stars" src="fourstars.png" alt="Four Stars"></td>
+                            <td><input class="selection" type="radio" name="movies" value="600"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><label>Pick a random movie</label></td>
+                            <td></td>
+                            <td><input class="selection" type="radio" name="movies" value="0" checked></td>
+                        </tr>
+                        <tr>
+                            <td><input id="submitButton" type="submit"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </main>
+
+    <footer id="indexFooter">
+        <p>&copy; Michael Parr Inc. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
