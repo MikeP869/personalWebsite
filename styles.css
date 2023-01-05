@@ -216,23 +216,14 @@ a {
     font-size: 20px;
 }
 
-#title {
+.title {
     font-family: 'Limelight', cursive;
     font-size: 7vh;
     margin-top: 0;
     margin-bottom: 5px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 17px;
     word-spacing: 5px;
-}
-
-#contactTitle {
-    font-family: 'Limelight', cursive;
-    font-size: 9vh;
-    margin-top: 13px;
-    /* margin-bottom: 5px; */
-    display: inline-block;
-    margin-left: 20px;
 }
 
 #indexFooter {
@@ -255,29 +246,31 @@ form {
     /* margin: 0 auto; */
 }
 
-  label {
+label {
     display: block;
     margin-bottom: 0.25em;
     font-size: 1.25em;
-  }
-  input[type="text"],
-  input[type="email"],
-  textarea {
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 0.5em;
     border: 1px solid #ccc;
     border-radius: 3px;
     margin-bottom: 1em;
-  }
-  button[type="submit"] {
+}
+
+button[type="submit"] {
     padding: .75em 1em;
     background: #006699;
     color: white;
     border: 0;
-    border-radius: 3px;
+    border-radius: .25em;
     cursor: pointer;
     font-size: 1em;
-  }
+}
 
 #addMargin {
     margin-top: 2em;
