@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>    
+        <a href="index.html">Home</a>
+        <a href="technical.html">Technical Skills</a>
+        <a class="active" href="contact.html">Contact Me</a>
+    </nav>
+
+    <div id="profileDiv" class="row header">
+        <div id="contactPicture" class="col-lg-03"></div> 
+        <div class="col-sm-12 col-md-12 col-lg-09">
+            <h1 id="contactTitle">Contact Me</h1><br>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <form action="https://formsubmit.co/michaelparr869@gmail.com" method="post">
+                <label id="addMargin" for="name">Name:</label><br>
+                <input type="hidden" name="_next" value="https://michael-parr.com/thankyou.html">
+                <input type="hidden" name="_subject" value="New Inquiry!">
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form>              
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <footer id="contactFooter">
+                <p>&copy; Michael Parr Inc. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
