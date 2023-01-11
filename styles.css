@@ -35,6 +35,7 @@
 @media only screen and (min-width: 1024px) {
     .col-sm-00  {display: 		initial; }
     .col-md-00  {display: 		initial; }
+    .col-lg-00  {display: none;}
     .col-lg-01  {width: 		  8.33%; }
     .col-lg-02  {width: 		 16.66%; }
     .col-lg-03  {width: 		 25.00%; }
